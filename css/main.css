@@ -1,0 +1,15 @@
+/*class*/
+.main-text {
+    color: red;
+}
+/*id*/
+#abzats1 {
+    color: blue
+}
+#bold1 {
+    color: yellow
+}
+/* teg */
+div p b, div i{
+    color: crimson
+}

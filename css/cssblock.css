@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#button{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: red;
+    line-height: 50px;
+    border: 1px solid silver;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#header, #footer{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border-bottom: 5px solid silver;
+    background: black;
+    color: white;
+    line-height: 70px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;3
+    float: left;
+}
+#nav{
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+#nav li{
+    display: inline;
+    background: blue;
+    color: white;
+    border: 1px solid silver;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+#nav li:not(:last-of-type){
+    margin-right: 20px;
+    
+}
+#nav li:hover{
+    color: yellow;
+    background: red;
+    border-radius: 5px;
+    border-color: red;
+}
+#main{
+    width: 50%;
+    margin-left: 10%;
+    background: yellow;
+    border: 1px solid silver;
+    padding: 20px 2.5%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+#aside{
+    width: 20%;
+    padding: 20px 2.5%;
+    background: yellow;
+    border: 1px solid silver;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    top: 10px;
+    left: -20px;
+    z-index: 0;
+    
+}
+#footer{
+    border-bottom: 0;
+    border-top: 5px solid silver;
+    margin-bottom: 0;
+    margin-top: 50px;
+    float: left;
+    
+}
+

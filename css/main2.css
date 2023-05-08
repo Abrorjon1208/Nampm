@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+
+p.text:not(:empty){
+    color: gray;
+}
+
+p.text:empty::after{
+    color: gray;
+    content: 'Salomsalom';
+}
+
+.main_link{
+    color:red;
+    text-decoration: none;
+}
+
+#salom::before{
+    content: 'Cant copy';
+    color:red;
+    text-decoration: underline;
+}
+
+.main_link:hover {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+}
+.main_link:active{
+    text-decoration: line-through;
+}
+
+.main_link:visited{
+    text-decoration: line-through;
+    color: grey;
+}
+
+input {
+    color: blue;
+}
+input:focus {
+    color:chocolate;
+    text-decoration: underline;
+}
+input:disabled {
+    color:black;
+}
+
+h1.header::first-letter {
+    color: blue;
+}
+
+p.header::first-line {
+    color: fuchsia;
+}
+p {
+    background-color: #99960f;
+}
+#first {
+    /*background-color: #00960f;
+    background-image: url('https://wallpapers.com/images/featured/2ygv7ssy2k0lxlzu.jpg');
+    background-repeat: no-repeat;
+    background-position: center; */
+    
+    background: #00960f url('https://wallpapers.com/images/featured/2ygv7ssy2k0lxlzu.jpg') no-repeat center top;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 10px solid black;
+    
+}
+
+#second {
+    height: 10px
+}
+
+p.texts{
+    color: fuchsia;
+    background-color: forestgreen;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Comic Neue', cursive;
+    text-transform: lowercase;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+#block{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-top: 10px solid black;
+    border-left: 10px dotted black;
+    border-right: 10px  dashed black;
+    border-bottom: 0;
+    border-radius: 20px 50%;
+    opacity: 0.7;
+    margin: 20px 20px;
+    padding: 20px;
+}
+
+#img {
+    background-image: url('https://wallpapers.com/images/featured/2ygv7ssy2k0lxlzu.jpg');
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    display: block;
+    
+}
